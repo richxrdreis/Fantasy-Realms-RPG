@@ -2,6 +2,16 @@
 
 🎮 **Fantasy Realms** é um jogo RPG interativo desenvolvido com HTML, CSS e JavaScript. Enfrente monstros, adquira itens e viva uma aventura épica para salvar a cidade do temível Dragão!
 
+## 📸 Capturas de Tela
+
+### Versão para PC
+
+![Fantasy Realms - PC](assets/screenshot-pc.png)
+
+### Versão Responsiva
+
+![Fantasy Realms - Responsivo](assets/screenshot-responsive.png)
+
 ## 🚀 Visão Geral
 
 Em **Fantasy Realms**, você embarca em uma jornada para derrotar monstros e, finalmente, enfrentar o Dragão. No caminho, você poderá:
