@@ -4,13 +4,12 @@
 
 ## 📸 Capturas de Tela
 
-### Versão para PC
+### Versão para PC e Responsiva
 
-![Fantasy Realms - PC](images/versao-pc.png)
-
-### Versão Responsiva
-
-![Fantasy Realms - Responsivo](images/versao-mobile.png)
+<div style="display: flex; justify-content: space-between;">
+  <img src="images/versao-pc.png" alt="Fantasy Realms - PC" style="width: 48%; border-radius: 10px;">
+  <img src="images/versao-mobile.png" alt="Fantasy Realms - Responsivo" style="width: 48%; border-radius: 10px;">
+</div>
 
 ## 🚀 Visão Geral
 
