@@ -6,11 +6,11 @@
 
 ### Versão para PC
 
-![Fantasy Realms - PC](assets/screenshot-pc.png)
+![Fantasy Realms - PC](images/versao-pc.png)
 
 ### Versão Responsiva
 
-![Fantasy Realms - Responsivo](assets/screenshot-responsive.png)
+![Fantasy Realms - Responsivo](images/versao-mobile.png)
 
 ## 🚀 Visão Geral
 
