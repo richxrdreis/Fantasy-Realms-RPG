@@ -12,12 +12,6 @@ Em **Fantasy Realms**, você embarca em uma jornada para derrotar monstros e, fi
 - Explorar várias localidades com interações únicas
 - Descobrir easter eggs escondidos
 
-## 💻 Tecnologias Utilizadas
-
-- **HTML:** Estrutura do jogo
-- **CSS:** Estilização e design responsivo
-- **JavaScript:** Lógica do jogo e interatividade
-
 ## ⚔️ Recursos do Jogo
 
 - Sistema de combate com diferentes armas
