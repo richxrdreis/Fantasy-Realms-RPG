@@ -18,6 +18,7 @@ body {
 
 /* Estilo principal do jogo */
 #game {
+  width: 100%;
   max-width: 600px;
   background-color: #ffffff;
   color: #0a0a23;
@@ -38,7 +39,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-size: 22px;
 }
 
@@ -120,7 +121,7 @@ button:focus {
 /* Responsividade */
 @media (max-width: 600px) {
   #game {
-    max-width: 100%;
+    width: 100%;
     padding: 20px;
   }
 
@@ -128,6 +129,13 @@ button:focus {
     width: 100%;
     margin-right: 0;
     flex: 1 1 100%;
+  }
+
+  button:hover {
+    background-color: #e59400;
+    background-image: linear-gradient(#fbbd2b, #e59400);
+    transform: scale(1.01);
+    font-weight: 500;
   }
 
   .stat {
