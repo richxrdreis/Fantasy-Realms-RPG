@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+
+/* Estilo global */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a0a23;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Estilo principal do jogo */
+#game {
+  max-width: 600px;
+  background-color: #ffffff;
+  color: #0a0a23;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Área de texto */
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#text p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+#text span {
+  color: #feac32;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#text span:hover {
+  color: #fecc4c;
+  transition: 0.3s ease;
+  transform: translateY(-1px);
+}
+
+/* Estilo para controles, estatísticas e estatísticas do monstro */
+#controls,
+#stats,
+#monsterStats {
+  border: 1px solid #0a0a23;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+#monsterStats {
+  display: none;
+  background-color: #c70d0d;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Estilo das estatísticas */
+#stats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.stat {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  flex: 1 1 calc(33.33% - 10px);
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #ffcf70;
+  background-image: linear-gradient(#ffdf9c, #ffcf70);
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  transform: translateY(2px);
+}
+
+button:focus {
+  outline: 2px solid #feac32;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  #game {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  button {
+    width: 100%;
+    margin-right: 0;
+    flex: 1 1 100%;
+  }
+
+  .stat {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
