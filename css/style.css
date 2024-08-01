@@ -19,20 +19,58 @@ body {
 /* Estilo principal do jogo */
 #game {
   width: 100%;
+  background: #fff;
   max-width: 600px;
-  background-color: #ffffff;
   color: #0a0a23;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-image 0.5s ease-in-out;
+}
+
+#game.tela-inicio {
+  background-image: url(../images/praça.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#game.store-background {
+  background-image: url(../images/loja.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#game.caverna {
+  background-image: url(../images/caverna.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#game.lutar-dragao {
+  background-image: url(../images/luta-dragao.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#game.slime {
+  background-image: url(../images/luta-slime.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#game.besta-com-presas {
+  background-image: url(../images/luta-besta.jpeg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* Área de texto */
 #text {
-  background-color: #0a0a23;
+  background-color: hsla(240, 56%, 9%, 0.25);
   color: #ffffff;
   padding: 15px;
   border-radius: 10px;
+  backdrop-filter: blur(3px);
 }
 
 #text p {
@@ -59,6 +97,7 @@ body {
 #controls,
 #stats,
 #monsterStats {
+  background: rgba(255, 255, 255, 0.116);
   border: 1px solid #0a0a23;
   padding: 10px;
   margin-bottom: 15px;
@@ -67,7 +106,7 @@ body {
 
 #monsterStats {
   display: none;
-  background-color: #c70d0d;
+  background-color: rgba(199, 13, 13, 0.4);
   color: #ffffff;
   font-weight: 500;
 }
@@ -90,8 +129,10 @@ body {
 }
 
 button {
+  width: 150px;
+  height: 57px;
   cursor: pointer;
-  color: #0a0a23;
+  color: black;
   background-color: #feac32;
   background-image: linear-gradient(#fecc4c, #ffac33);
   border: none;
@@ -103,9 +144,10 @@ button {
 }
 
 button:hover {
-  background-color: #ffcf70;
-  background-image: linear-gradient(#ffdf9c, #ffcf70);
-  transform: translateY(-2px);
+  background-color: #e59400;
+  background-image: linear-gradient(#fbbd2b, #e59400);
+  transform: scale(1.01);
+  font-weight: 500;
 }
 
 button:active {
@@ -140,6 +182,7 @@ button:focus {
 
   button {
     width: 100%;
+    height: auto;
     margin-right: 0;
     flex: 1 1 100%;
   }

@@ -29,7 +29,7 @@ const monsters = [
     health: 15,
   },
   {
-    name: "Besta com Presas",
+    name: "Besta c/ Presas",
     level: 8,
     health: 60,
   },
@@ -120,14 +120,27 @@ function update(location) {
 
 function goTown() {
   update(locations[0]);
+  document
+    .getElementById("game")
+    .classList.remove(
+      "store-background",
+      "caverna",
+      "lutar-dragao",
+      "slime",
+      "besta-com-presas"
+    );
 }
 
 function goStore() {
   update(locations[1]);
+  document.getElementById("game").classList.remove("slime", "besta-com-presas");
+  document.getElementById("game").classList.add("store-background");
 }
 
 function goCave() {
   update(locations[2]);
+  document.getElementById("game").classList.remove("slime", "besta-com-presas");
+  document.getElementById("game").classList.add("caverna");
 }
 
 function buyHealth() {
@@ -174,16 +187,29 @@ function sellWeapon() {
 }
 
 function fightSlime() {
+  document.getElementById("game").classList.remove("besta-com-presas");
+  document.getElementById("game").classList.add("slime");
+
   fighting = 0;
   goFight();
 }
 
 function fightBeast() {
+  document.getElementById("game").classList.remove("slime");
+  document.getElementById("game").classList.add("besta-com-presas");
+
   fighting = 1;
   goFight();
 }
 
 function fightDragon() {
+  update(locations[3]);
+  document.getElementById("game").classList.add("lutar-dragao");
+  document
+    .getElementById("game")
+    .classList.remove("store-background", "caverna");
+  document.getElementById("stats").classList.add("text-white");
+
   fighting = 2;
   goFight();
 }
