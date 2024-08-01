@@ -4,7 +4,7 @@
 
 ## 📸 Capturas de Tela
 
-### Versão para PC e Responsiva
+### Versão para PC/Mobile
 
 <div style="display: flex; justify-content: space-between;">
   <img src="images/versao-pc.png" alt="Fantasy Realms - PC" style="width: 60%; object-fit: cover; border-radius: 10px;">
