@@ -7,7 +7,8 @@
 ### Versão para PC e Responsiva
 
 <div style="display: flex; justify-content: space-between;">
-
+  <img src="images/versao-pc.png" alt="Fantasy Realms - PC" style="width: 48%; max-height: 300px; object-fit: cover; border-radius: 10px;">
+  <img src="images/versao-mobile.png" alt="Fantasy Realms - Responsivo" style="width: 48%; max-height: 300px; object-fit: cover border-radius: 10px;">
 </div>
 
 ## 🚀 Visão Geral
