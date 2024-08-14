@@ -31,6 +31,7 @@ Em **Fantasy Realms**, você embarca em uma jornada para derrotar monstros e, fi
 
 ## 🤝 Contribuições
 
+Link para jogar: https://richxrdreis.github.io/Fantasy-Realms-RPG/
 Sinta-se à vontade para contribuir com melhorias e sugestões! Caso encontre algum bug ou tenha uma ideia para uma nova funcionalidade, abra uma issue ou envie um pull request.
 
 ---
